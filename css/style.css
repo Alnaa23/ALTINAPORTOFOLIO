@@ -249,6 +249,7 @@
 
 .about-content li span {
     flex: 1;
+    font-size: 1rem;
 }
 
 .about-content li span:first-child {
@@ -1031,23 +1032,23 @@
     }
 
     .blob-container {
-        width: 80%;
+        width: 100%;
         max-width: 400px;
         height: auto;
     }
 
     .blob-container svg {
         width: 100%;
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 98%;
+        max-height: 90%;
         height: auto;
     }
 
     .foto {
-        width: 70%;
-        max-width: 300px;
-        max-height: 350px;
-        height: 70%;
+        width: 50%;
+        max-width: 260px;
+        max-height: 315px;
+        height: 50%;
         align-items: center;
         border-radius: 50%;
         position: absolute;
@@ -1109,7 +1110,7 @@
     top: 50%;
     left: 50%;
     width: 335px;
-    height: 415px;
+    height: 410px;
     transform: translate(-50%, -60%);
     z-index: 10;
     border-radius: 50%;
@@ -1134,10 +1135,10 @@
 
 .about .foto {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
-    width: 62%;
-    height: 70%;
+    width: 65%;
+    height: 79%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
