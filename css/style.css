@@ -4,7 +4,7 @@
     z-index: 999;
     top: 0;
     left: 0;
-    background: var(--nero);
+    background: var(--nero);/*#252525*/
     width: 100%;
 }
 
@@ -107,7 +107,7 @@
 .home .row-left h3 {
     color: var(--blue);
     font-weight: 400;
-    text-transform: uppercase;
+   
 }
 
 .home .row-left h1 {
@@ -673,6 +673,7 @@
     border-radius: 25px;
     outline: 0;
     caret-color: #fff;
+    color: #c5bfbf;
 }
 
 .contact-form input:focus,
